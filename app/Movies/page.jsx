@@ -34,6 +34,7 @@ export default function MoviesPage() {
               {movies.map((movie) => (
                 <MovieCard key={movie.id} movie={movie} />
                 ))}
+
             </div>
         </div>
     </main>
