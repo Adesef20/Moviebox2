@@ -36,6 +36,10 @@ export default function MoviesPage() {
                 ))}
 
             </div>
+            <div className="flex justify-center gap-4 mt-6">
+                <button onClick={handlePrev} className="px-4 py-2 bg-gray-800 rounded">Previous</button>
+                <button onClick={handleNext} className="px-4 py-2 bg-gray-800 rounded">Next</button>
+            </div>
         </div>
     </main>
   );

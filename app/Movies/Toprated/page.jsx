@@ -1,4 +1,5 @@
-import MovieSection from "@/components/MovieSection";
+import MovieSection from "../../components/MovieSection";
+
 
 export default function TopratedMovies() {
   return (
