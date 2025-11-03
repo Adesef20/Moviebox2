@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import { fetchMovies } from "../app/libs/fetchMovies";
+import { fetchMovies } from "../libs/fetchMovies";
 import { FaPlay, FaClock } from "react-icons/fa";
 import Link from "next/link";
 
