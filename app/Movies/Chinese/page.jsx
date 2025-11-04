@@ -1,4 +1,4 @@
-import MovieSection from "../../Components/MovieSection";
+import MovieSection from "../Components/MovieSection";
 
 
 export default function ChineseMovies() {
