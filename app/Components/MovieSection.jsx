@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import MovieCard from "./MovieCard";
-import { fetchMovies } from "../app/libs/fetchMovies";
+import { fetchMovies } from "../libs/fetchMovies";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 const MovieSection = ({ title, endpoint, viewAllLink }) => {

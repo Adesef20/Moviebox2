@@ -20,12 +20,12 @@ const Navbar = () => {
     
         <ul className="hidden md:flex items-center gap-8 font-medium">
           <li>
-            <Link href="/" className="hover:text-yellow-400 transition">
+            <Link href="/" className="text-red-500 text-2xl font-sans hover:text-yellow-400 transition">
               HOME
             </Link>
           </li>
           <li>
-            <Link href="/Movies" className="hover:text-yellow-400 transition">
+            <Link href="/Movies" className="text-2xl font-sans hover:text-yellow-400 transition">
               TV-SERIES
             </Link>
           </li>
