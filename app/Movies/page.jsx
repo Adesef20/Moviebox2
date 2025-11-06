@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import { fetchMovies } from "../libs/fetchMovies";
-import MovieCard from "./Components/MovieCard";
+import MovieCard from "@/components/MovieCard";
 
 
 export default function MoviesPage() {

@@ -1,4 +1,4 @@
-import MovieSection from "@/Components/MovieSection";
+import MovieSection from "@/components/MovieSection";
 
 
 export default function TopratedMovies() {
