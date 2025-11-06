@@ -1,4 +1,4 @@
-import MovieSection from "@/components/MovieSection";
+import MovieSection from "./components/MovieSection";
 
 export default function TrendingMovies() {
   return (
