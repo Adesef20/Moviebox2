@@ -7,42 +7,42 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="w-full bg-gray-900 text-white sticky top-0 z-50 shadow-md">
-      <div className="max-w-7xl mx-auto flex justify-between items-center px-4 py-4">
+    <nav className="sticky top-0 z-50 w-full text-white bg-gray-900 shadow-md">
+      <div className="flex items-center justify-between px-4 py-4 mx-auto max-w-7xl">
         
         <Link
           href="/"
-          className="text-3xl font-bold text-yellow-400 tracking-wide"
+          className="text-3xl font-bold tracking-wide text-yellow-400"
         >
           MovieBox 🎬
         </Link>
 
     
-        <ul className="hidden md:flex items-center gap-8 font-medium">
+        <ul className="items-center hidden gap-8 font-medium md:flex">
           <li>
-            <Link href="/" className="text-red-500 text-2xl font-sans hover:text-yellow-400 transition">
+            <Link href="/" className="font-sans text-2xl text-red-500 transition hover:text-yellow-400">
               HOME
             </Link>
           </li>
           <li>
-            <Link href="/Movies" className="text-2xl font-sans hover:text-yellow-400 transition">
+            <Link href="/Movies" className="font-sans text-2xl transition hover:text-yellow-400">
               TV-SERIES
             </Link>
           </li>
         </ul>
 
         
-        <div className="hidden md:flex items-center">
+        <div className="items-center hidden md:flex">
           <input
             type="text"
             placeholder="Search Movies..."
-            className="bg-gray-700 text-sm rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-500"
+            className="px-3 py-2 text-sm bg-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500"
           />
         </div>
 
         
         <button
-          className="md:hidden text-2xl"
+          className="text-2xl md:hidden"
           onClick={() => setOpen(!open)}
           aria-label="Toggle Menu"
         >
@@ -52,16 +52,16 @@ const Navbar = () => {
 
     
       {open && (
-        <ul className="md:hidden bg-gray-800 text-white px-6 py-4 space-y-4 font-medium">
+        <ul className="px-6 py-4 space-y-4 font-medium text-white bg-gray-800 md:hidden">
           <li>
-            <Link href="/" className="block hover:text-yellow-400 transition">
+            <Link href="/" className="block transition hover:text-yellow-400">
               HOME
             </Link>
           </li>
           <li>
             <Link
               href="/Movies"
-              className="block hover:text-yellow-400 transition"
+              className="block transition hover:text-yellow-400"
             >
               TV-SERIES
             </Link>

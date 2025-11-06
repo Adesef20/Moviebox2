@@ -1,9 +1,8 @@
-import MovieSection from "../components/MovieSection";
-
+import MovieSection from "./Components/MovieSection";
 
 export default function TrendingMovies() {
   return (
-    <main className="bg-black min-h-screen text-white p-10">
+    <main className="min-h-screen p-10 text-white bg-black">
       <MovieSection title="Trending Movies" endpoint="trending/movie/week" />
     </main>
   );

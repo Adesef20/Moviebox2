@@ -1,9 +1,9 @@
-import MovieSection from "../components/MovieSection";
+import MovieSection from "./Components/MovieSection";
 
 
 export default function UpcomingMovies() {
   return (
-    <main className="bg-black min-h-screen text-white p-10">
+    <main className="min-h-screen p-10 text-white bg-black">
       <MovieSection title="Upcoming Movies" endpoint="upcoming/movie/week" />
     </main>
   );

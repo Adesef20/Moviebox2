@@ -1,10 +1,10 @@
-import HeroSection from "./components/HeroSection";
-import MovieSection from "./components/MovieSection";
+import HeroSection from "./Components/HeroSection";
+import MovieSection from "./Components/MovieSection";
 
 
 export default function Home() {
   return (
-    <main className="bg-black text-white min-h-screen space-y-10">
+    <main className="min-h-screen space-y-10 text-white bg-black">
       <HeroSection />
       
       <MovieSection 
